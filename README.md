@@ -55,8 +55,10 @@ service.stop();
 ```
 
 **Builds**
-
-https://github.com/ClickerMonkey/taskaroo/tree/master/build
+- [taskaroo-1.0.0.jar](https://github.com/ClickerMonkey/taskaroo/blob/master/build/taskaroo-1.0.0.jar?raw=true)
+- [taskaroo-src-1.0.0.jar](https://github.com/ClickerMonkey/taskaroo/blob/master/build/taskaroo-src-1.0.0.jar?raw=true) *- includes source code*
+- [taskaroo-all-1.0.0.jar](https://github.com/ClickerMonkey/taskaroo/blob/master/build/taskaroo-1.0.0.jar?raw=true) *- includes all dependencies*
+- [taskaroo-all-src-1.0.0.jar](https://github.com/ClickerMonkey/taskaroo/blob/master/build/taskaroo-src-1.0.0.jar?raw=true) *- includes all dependencies and source code*
 
 **Projects using taskaroo:**
 - [falcon](https://github.com/ClickerMonkey/falcon)
@@ -68,5 +70,4 @@ https://github.com/ClickerMonkey/taskaroo/tree/master/build
 - [testility](https://github.com/ClickerMonkey/testility) *for unit tests*
 
 **Testing Examples**
-
-https://github.com/ClickerMonkey/taskaroo/tree/master/Testing/org/magnos/task
+- [Testing/org/magnos/task](https://github.com/ClickerMonkey/taskaroo/tree/master/Testing/org/magnos/task)
