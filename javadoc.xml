@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc" name="Taskaroo-JavaDoc">
+    <target name="javadoc">
+        <javadoc access="protected" author="true" 
+        	classpath="../Resource/bin;../Concurrency-Utility/bin;../Service/bin;../Testing-Utility/bin;../Testing-Utility/libs" 
+        	destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" 
+        	nonavbar="false" notree="false" source="1.5" sourcepath="Source" 
+        	splitindex="true" use="true" version="true"/>
+    </target>
+</project>

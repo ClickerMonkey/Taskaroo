@@ -1,0 +1,69 @@
+<project name="Taskaroo" default="build" basedir=".">
+	<description>Phils Projects Build</description>
+
+	<!-- set global properties for this build -->
+	<property name="src-curity" location="../Concurrency-Utility/Source"/>
+	<property name="src-zource" location="../Resource/Source"/>
+	<property name="src-surfice" location="../Service/Source"/>
+	<property name="src-taskaroo" location="../Task/Source"/> 
+	
+	<property name="src" location="${src-taskaroo}"/>
+	<property name="build" location="build"/>
+	<property name="bin" location=".bin"/>
+	<property name="bin-all" location=".bin-all"/>
+	<property name="version" value="1.0.0"/>
+	<property name="project" value="taskaroo"/>
+
+	<target name="init">
+		<!-- Create the bin directory structure used by compile -->
+		<mkdir dir="${bin}"/>
+		<mkdir dir="${bin-all}"/>
+		<mkdir dir="${build}"/>
+	</target>
+
+	<target name="compile" depends="init" description="compile the source " >
+		<!-- Compile the java code from ${src} into ${bin} -->
+		<javac srcdir="${src-curity}" destdir="${bin-all}" optimize="on"/>
+		<javac srcdir="${src-zource}" destdir="${bin-all}" optimize="on"/>
+		<javac srcdir="${src-surfice}" destdir="${bin-all}" optimize="on"/>
+		<javac srcdir="${src-taskaroo}" destdir="${bin-all}" optimize="on"/>
+		
+		<!-- Compile the java code from ${src} into ${bin} -->
+		<javac srcdir="${src}" destdir="${bin}" classpath="${bin-all}" optimize="on"/>
+	</target>
+
+	<target name="build" depends="compile" description="" >
+		<!-- Put everything in ${build} into the testility-${version}.jar file -->
+		<jar jarfile="${build}/${project}-${version}.jar" basedir="${bin}" compress="true"/>
+	</target>
+
+	<target name="build-src" depends="compile" description="" >
+		<!-- Put everything in ${build} into the testility-${version}.jar file -->
+		<jar jarfile="${build}/${project}-src-${version}.jar" basedir="${bin}" compress="true">
+		    <fileset dir="${src}"/>
+		</jar>
+	</target>
+
+	<target name="build-all" depends="compile" description="" >
+		<!-- Put everything in ${build} into the testility-${version}.jar file -->
+		<jar jarfile="${build}/${project}-all-${version}.jar" basedir="${bin-all}" compress="true"/>
+	</target>
+
+	<target name="build-all-src" depends="compile" description="" >
+		<!-- Put everything in ${build} into the testility-${version}.jar file -->
+		<jar jarfile="${build}/${project}-all-src-${version}.jar" basedir="${bin-all}" compress="true">
+			<fileset dir="${src-curity}"/>
+			<fileset dir="${src-zource}"/>
+			<fileset dir="${src-surfice}"/>
+			<fileset dir="${src-taskaroo}"/>
+		</jar>
+	</target>
+	
+	<target name="clean" description="clean up" >
+		<!-- Delete the ${bin} and ${dist} directory trees -->
+		<delete dir="${bin}"/>
+		<delete dir="${bin-all}"/>
+		<delete dir="${build}"/>
+	</target>
+		
+</project>

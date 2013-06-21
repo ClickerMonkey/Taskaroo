@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Source"/>
+	<classpathentry kind="src" path="Testing"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Concurrency-Utility"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Resource"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Testing-Utility"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
