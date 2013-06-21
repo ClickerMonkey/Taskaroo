@@ -58,6 +58,15 @@ service.stop();
 
 https://github.com/ClickerMonkey/taskaroo/tree/master/build
 
+**Projects using taskaroo:**
+- [falcon](https://github.com/ClickerMonkey/falcon)
+
+**Dependencies**
+- [surfice](https://github.com/ClickerMonkey/surfice)
+- [zource](https://github.com/ClickerMonkey/zource)
+- [curity](https://github.com/ClickerMonkey/curity)
+- [testility](https://github.com/ClickerMonkey/testility) *for unit tests*
+
 **Testing Examples**
 
 https://github.com/ClickerMonkey/taskaroo/tree/master/Testing/org/magnos/task
