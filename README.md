@@ -13,6 +13,9 @@ A Java library that handles execution of tasks. Tasks can be executed sequential
 - Tasks can be grouped and executed simultaneously (TaskGroup)
 - Tasks can be forked to be ran in a separate context
 
+**Documentation**
+- [JavaDoc](http://clickermonkey.github.com/taskaroo/)
+
 **Example**
 
 ```java
