@@ -1,6 +1,8 @@
 taskaroo
 ========
 
+![Stable](http://i4.photobucket.com/albums/y123/Freaklotr4/stage_stable.png)
+
 A Java library that handles execution of tasks. Tasks can be executed sequentially, in parallel, or in any order.
 
 **Features**
