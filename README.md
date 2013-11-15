@@ -16,7 +16,7 @@ A Java library that handles execution of tasks. Tasks can be executed sequential
 - Tasks can be forked to be ran in a separate context
 
 **Documentation**
-- [JavaDoc](http://gh.magnos.org/?r=http://clickermonkey.github.com/taskaroo/)
+- [JavaDoc](http://gh.magnos.org/?r=http://clickermonkey.github.com/Taskaroo/)
 
 **Example**
 
@@ -70,19 +70,19 @@ service.stop();
 ```
 
 **Builds**
-- [taskaroo-1.0.0.jar](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/taskaroo/blob/master/build/taskaroo-1.0.0.jar?raw=true)
-- [taskaroo-src-1.0.0.jar](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/taskaroo/blob/master/build/taskaroo-src-1.0.0.jar?raw=true) *- includes source code*
-- [taskaroo-all-1.0.0.jar](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/taskaroo/blob/master/build/taskaroo-1.0.0.jar?raw=true) *- includes all dependencies*
-- [taskaroo-all-src-1.0.0.jar](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/taskaroo/blob/master/build/taskaroo-src-1.0.0.jar?raw=true) *- includes all dependencies and source code*
+- [taskaroo-1.0.0.jar](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/Taskaroo/blob/master/build/taskaroo-1.0.0.jar?raw=true)
+- [taskaroo-src-1.0.0.jar](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/Taskaroo/blob/master/build/taskaroo-src-1.0.0.jar?raw=true) *- includes source code*
+- [taskaroo-all-1.0.0.jar](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/Taskaroo/blob/master/build/taskaroo-1.0.0.jar?raw=true) *- includes all dependencies*
+- [taskaroo-all-src-1.0.0.jar](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/Taskaroo/blob/master/build/taskaroo-src-1.0.0.jar?raw=true) *- includes all dependencies and source code*
 
 **Projects using taskaroo:**
-- [falcon](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/falcon)
+- [falcon](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/Falcon)
 
 **Dependencies**
-- [surfice](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/surfice)
-- [zource](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/zource)
-- [curity](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/curity)
-- [testility](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/testility) *for unit tests*
+- [surfice](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/Surfice)
+- [zource](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/Zource)
+- [curity](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/Curity)
+- [testility](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/Testility) *for unit tests*
 
 **Testing Examples**
-- [Testing/org/magnos/task](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/taskaroo/tree/master/Testing/org/magnos/task)
+- [Testing/org/magnos/task](http://gh.magnos.org/?r=https://github.com/ClickerMonkey/Taskaroo/tree/master/Testing/org/magnos/task)
